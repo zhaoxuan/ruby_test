@@ -1,0 +1,30 @@
+<dataConfig> 
+        <dataSource driver="org.postgresql.Driver"  url="jdbc:postgresql://192.168.5.13/cbb_development:5432"  user="cbb" password="bbc" transactionIsolation="TRANSACTION_READ_COMMITTED" holdability="CLOSE_CURSORS_AT_COMMIT"/> 
+
+        <document> 
+                <entity name="prices"
+                        pk='id'
+                        transformer="RegexTransformer"
+                        query="select id,name,image_file_name,image_file_size,image_content_type,image_updated_at,language,platform,description,is_top,created_time,author,developer,add_cbb_time,maintainer from products" >
+
+                <field column='id' name = 'id' />
+                <field column='name' name = 'name' />
+                <field column='image_file_name' name = 'image_file_name' />
+                <field column='image_file_size' name = 'image_file_size' />
+                <field column='image_content_type' name = 'image_content_type' />
+                <field column='image_updated_at' name = 'image_updated_at' />
+                <field column='language' name = 'language' />
+                <field column='platform' name = 'platform' />
+                <field column='description' name = 'description' />
+                <field column='is_top' name = 'is_top' />
+                <field column='created_time' name = 'created_time' />
+                <field column='author' name = 'author' />
+                <field column='developer' name = 'developer' />
+                <field column='add_cbb_time' name = 'add_cbb_time' />
+                <field column='maintainer' name = 'maintainer' />
+
+                </entity>
+
+        </document>
+
+</dataConfig> 

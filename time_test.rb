@@ -1,0 +1,1 @@
+p Time.new.strftime("%a, %d %m %Y %H:%M:%S %Z")

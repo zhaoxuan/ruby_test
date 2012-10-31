@@ -1,0 +1,7 @@
+# Logfile created on Wed Aug 15 18:18:41 +0800 2012 by logger.rb/1.2.6
+F, [2012-08-15T18:18:41.298348 #15818] FATAL -- : Caught exception; exiting
+F, [2012-08-15T18:18:41.298431 #15818] FATAL -- : RuntimeError (RuntimeError)
+/home/zx/workspace/ruby_test/ruby_logger.rb:7
+F, [2012-08-15T18:19:12.076682 #15838] FATAL -- : Caught exception; exiting 1
+F, [2012-08-15T18:19:12.076867 #15838] FATAL -- : RuntimeError (RuntimeError)
+/home/zx/workspace/ruby_test/ruby_logger.rb:8
