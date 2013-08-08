@@ -1,0 +1,175 @@
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_PROGRAM_VERSION	5.8	//
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+MessageColler	absove_dynamic_method.rb	/^class MessageColler$/;"	c
+Recorder	absove_dynamic_method.rb	/^class Recorder$/;"	c
+messages	absove_dynamic_method.rb	/^  def messages$/;"	f	class:MessageColler
+method_missing	absove_dynamic_method.rb	/^  def method_missing(sym, *args)$/;"	f	class:MessageColler
+play_for	absove_dynamic_method.rb	/^  def play_for(obj)$/;"	f	class:Recorder
+record	absove_dynamic_method.rb	/^  def record$/;"	f	class:Recorder
+to_s	absove_dynamic_method.rb	/^  def to_s$/;"	f	class:Recorder
+foo1	around_method.rb	/^def foo1$/;"	f
+foo2	around_method.rb	/^def foo2$/;"	f
+A	array_text.rb	/^class A$/;"	c
+BarcodeGenerator	barcode_generator.rb	/^class BarcodeGenerator$/;"	c
+generate	barcode_generator.rb	/^  def self.generate( text )$/;"	F	class:BarcodeGenerator
+initialize	barcode_generator.rb	/^  def initialize(text)$/;"	f	class:BarcodeGenerator
+prepare_path_if_not_exist	barcode_generator.rb	/^  def prepare_path_if_not_exist$/;"	f	class:BarcodeGenerator
+write_png	barcode_generator.rb	/^  def write_png$/;"	f	class:BarcodeGenerator
+C	blank_slate.rb	/^class C$/;"	c
+method_missing	blank_slate.rb	/^  def method_missing(name, *args)$/;"	f	class:C
+AddBy	block_proc_lamba.rb	/^class AddBy$/;"	c
+f0	block_proc_lamba.rb	/^def f0()$/;"	f
+f1	block_proc_lamba.rb	/^def f1$/;"	f
+f2	block_proc_lamba.rb	/^def f2(&p)$/;"	f
+f2	block_proc_lamba.rb	/^def f2()$/;"	f
+f3	block_proc_lamba.rb	/^def f3(p)$/;"	f
+initialize	block_proc_lamba.rb	/^  def initialize(num = 0)$/;"	f	class:AddBy
+to_proc	block_proc_lamba.rb	/^  def to_proc$/;"	f	class:AddBy
+A	class_func_use_class_func.rb	/^class A$/;"	c
+p1	class_func_use_class_func.rb	/^  def self.p1$/;"	F	class:A
+p2	class_func_use_class_func.rb	/^  def self.p2$/;"	F	class:A
+A	class_function.rb	/^class A$/;"	c
+a	class_function.rb	/^    def self.a$/;"	F	class:A
+b	class_function.rb	/^    def b$/;"	f	class:A
+A	class_in_class.rb	/^module A$/;"	m
+B	class_in_class.rb	/^  module B$/;"	m	class:A
+method_name	class_in_class.rb	/^    def method_name$/;"	f	class:A.B
+ClassInstanceValue	class_instance_value.rb	/^class ClassInstanceValue$/;"	c
+a	class_instance_value.rb	/^  def self.a$/;"	F	class:ClassInstanceValue
+b	class_instance_value.rb	/^  def self.b$/;"	F	class:ClassInstanceValue
+C	class_macro.rb	/^class C$/;"	c
+my_macro	class_macro.rb	/^  def my_macro$/;"	f
+A	class_module.rb	/^class A$/;"	c
+ClassMethods	class_module.rb	/^  module ClassMethods$/;"	m	class:ClassModule
+ClassModule	class_module.rb	/^module ClassModule$/;"	m
+InstanceMethods	class_module.rb	/^  module InstanceMethods$/;"	m	class:ClassModule
+included	class_module.rb	/^  def self.included(receiver)$/;"	F	class:ClassModule
+initialize	class_module.rb	/^    def initialize$/;"	f	class:ClassModule.InstanceMethods
+output	class_module.rb	/^    def output$/;"	f	class:ClassModule.ClassMethods
+ClassR	class_ruby.rb	/^class ClassR$/;"	c
+ActionController	content_range.rb	/^module ActionController$/;"	m
+Streaming	content_range.rb	/^  module Streaming$/;"	m	class:ActionController
+m_send_file_headers!	content_range.rb	/^      def m_send_file_headers!(options)$/;"	f	class:ActionController.Streaming
+send_file	content_range.rb	/^      def send_file(path, options = {})$/;"	f	class:ActionController.Streaming
+Foo	deprecate_warning.rb	/^class Foo$/;"	c
+Module	deprecate_warning.rb	/^class Module$/;"	c
+deprecate	deprecate_warning.rb	/^  def deprecate(method_name, &block)$/;"	f	class:Module
+foo	deprecate_warning.rb	/^  def foo$/;"	f	class:Foo
+Encrypt	des_encrypt.rb	/^class Encrypt$/;"	c
+des_decrypt	des_encrypt.rb	/^  def des_decrypt(encrypt_value)$/;"	f	class:Encrypt
+des_encrypt	des_encrypt.rb	/^  def des_encrypt(plaintext)$/;"	f	class:Encrypt
+initialize	des_encrypt.rb	/^  def initialize(key = "abcdefghijklmnopqrstuvwxyz",$/;"	f	class:Encrypt
+HelicalCoordinate	dilong.rb	/^class HelicalCoordinate$/;"	c
+point	dilong.rb	/^  def self.point(x, y)$/;"	F	class:HelicalCoordinate
+sigma	dilong.rb	/^  def self.sigma(s, e)$/;"	F	class:HelicalCoordinate
+test	dilong.rb	/^  def self.test$/;"	F	class:HelicalCoordinate
+get_extension_name	get_extension_name.rb	/^    def get_extension_name(name)$/;"	f
+is_image?	get_extension_name.rb	/^    def  is_image?(file_name)$/;"	f
+String	hooks_method.rb	/^class String$/;"	c
+size	hooks_method.rb	/^  def size$/;"	f	class:String
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+mv_m	itune_music.rb	/^def mv_m(folders)$/;"	f
+multiplier	jieguo.rb	/^def multiplier(n)$/;"	f
+Bowling	learn_rspec.rb	/^class Bowling$/;"	c
+hit	learn_rspec.rb	/^  def hit(pins)$/;"	f	class:Bowling
+score	learn_rspec.rb	/^  def score$/;"	f	class:Bowling
+Logger	logger_server.rb	/^class Logger$/;"	c
+LoggerFactory	logger_server.rb	/^class LoggerFactory$/;"	c
+get_logger	logger_server.rb	/^  def get_logger(name)$/;"	f	class:LoggerFactory
+initialize	logger_server.rb	/^  def initialize(bdir)$/;"	f	class:LoggerFactory
+initialize	logger_server.rb	/^  def initialize(n, fname)$/;"	f	class:Logger
+log	logger_server.rb	/^  def log(message)$/;"	f	class:Logger
+ManyThread	many_thread.rb	/^class ManyThread$/;"	c
+i	many_thread.rb	/^  def self.i$/;"	F	class:ManyThread
+i	many_thread.rb	/^  def self.i=(i)$/;"	F	class:ManyThread
+tet	many_thread.rb	/^  def tet(i)$/;"	f	class:ManyThread
+Rmap	map_3.rb	/^class Rmap$/;"	c
+initialize	map_3.rb	/^  def initialize(array, path, i)$/;"	f	class:Rmap
+map	map_3.rb	/^  def map$/;"	f	class:Rmap
+r_map	map_myself.rb	/^def r_map array, &block$/;"	f
+ModuleJ	module_ruby.rb	/^module ModuleJ$/;"	m
+CustomInitializers	name_params.rb	/^module CustomInitializers$/;"	m
+Search	name_params.rb	/^class Search$/;"	c
+hash_init	name_params.rb	/^  def hash_init(*args_name)$/;"	f	class:CustomInitializers
+BidingData	offline/offline_model.rb	/^class BidingData < ActiveRecord::Base  $/;"	c
+hash_look	offline/poc_offline_model.rb	/^def hash_look(hash, keys, split)$/;"	f
+table2hash	offline/poc_offline_model.rb	/^def table2hash(data)$/;"	f
+savefile	p_file_server.rb	/^  def savefile(path,content)$/;"	f
+quick_sort	quick_sort.rb	/^def quick_sort(array, begin_index, end_index)$/;"	f
+rand_string	rand_string.rb	/^def rand_string(length)$/;"	f
+get_hash_value_with_regexp	regular_hash.rb	/^def get_hash_value_with_regexp(hash, regular_string)$/;"	f
+return_key_with_regexp	regular_hash.rb	/^def return_key_with_regexp(keys_array, regular_string)$/;"	f
+func	rescue.rb	/^def func$/;"	f
+f	rescue_d.rb	/^def f$/;"	f
+Best	ruby.rb	/^class Best < Test$/;"	c
+Test	ruby.rb	/^class Test$/;"	c
+f1	ruby.rb	/^  def f1$/;"	f	class:Best
+f1	ruby.rb	/^  def self.f1$/;"	F	class:Test
+f2	ruby.rb	/^  def f2$/;"	f	class:Test
+initialize	ruby.rb	/^  def initialize$/;"	f	class:Test
+TestJob	ruby_queue.rb	/^class 	TestJob$/;"	c
+run	ruby_queue.rb	/^	def run$/;"	f	class:TestJob
+Object	ruby_respond_to.rb	/^class Object$/;"	c
+kish	ruby_respond_to.rb	/^  def self.kish$/;"	F	class:Object
+A	serialization.rb	/^class A$/;"	c
+a	serialization.rb	/^  def a$/;"	f	class:A
+initialize	serialization.rb	/^  def initialize(a)$/;"	f	class:A
+A	serialization_client.rb	/^class A$/;"	c
+a	serialization_client.rb	/^  def a$/;"	f	class:A
+initialize	serialization_client.rb	/^  def initialize(a)$/;"	f	class:A
+A	serialization_server.rb	/^class A$/;"	c
+TimeServer	serialization_server.rb	/^class TimeServer$/;"	c
+a	serialization_server.rb	/^  def a$/;"	f	class:A
+get_current_time	serialization_server.rb	/^  def get_current_time$/;"	f	class:TimeServer
+initialize	serialization_server.rb	/^  def initialize(a)$/;"	f	class:A
+Singleclass	singleton_danli.rb	/^class Singleclass$/;"	c
+f_coordiante	spiral_coordinate.rb	/^def f_coordiante(coordinate, destination_coordinate)$/;"	f
+A	string_to_class.rb	/^class A$/;"	c
+A	super_method.rb	/^class A$/;"	c
+B	super_method.rb	/^class B < A$/;"	c
+fun	super_method.rb	/^  def fun$/;"	f	class:A
+fun	super_method.rb	/^  def fun$/;"	f	class:B
+initialize	super_method.rb	/^  def initialize$/;"	f	class:A
+initialize	super_method.rb	/^  def initialize$/;"	f	class:B
+RoundArray	test_spec.rb	/^class RoundArray$/;"	c
+get_center	test_spec.rb	/^  def get_center$/;"	f	class:RoundArray
+get_dimension	test_spec.rb	/^  def get_dimension$/;"	f	class:RoundArray
+get_directions	test_spec.rb	/^  def get_directions$/;"	f	class:RoundArray
+get_steps	test_spec.rb	/^  def get_steps$/;"	f	class:RoundArray
+get_turn_times	test_spec.rb	/^  def get_turn_times$/;"	f	class:RoundArray
+initialize	test_spec.rb	/^  def initialize(number)$/;"	f	class:RoundArray
+move	test_spec.rb	/^  def move(direction)$/;"	f	class:RoundArray
+next_direction	test_spec.rb	/^  def next_direction$/;"	f	class:RoundArray
+next_steps	test_spec.rb	/^  def next_steps$/;"	f	class:RoundArray
+set_value	test_spec.rb	/^  def set_value(i)$/;"	f	class:RoundArray
+structrued_array	test_spec.rb	/^  def structrued_array$/;"	f	class:RoundArray
+structure	test_spec.rb	/^  def structure$/;"	f	class:RoundArray
+fib	test_spiral_coordinate.rb	/^def fib(n)$/;"	f
+asdf	thread_ruby.rb	/^def asdf$/;"	f
+A	timer_server.rb	/^class A$/;"	c
+TimeServer	timer_server.rb	/^class TimeServer$/;"	c
+a	timer_server.rb	/^  def a$/;"	f	class:A
+get_current_time	timer_server.rb	/^  def get_current_time$/;"	f	class:TimeServer
+initialize	timer_server.rb	/^  def initialize$/;"	f	class:TimeServer
+initialize	timer_server.rb	/^  def initialize(a)$/;"	f	class:A
+Date	untitled.rb	/^class Date$/;"	c
+abbr_dayname	untitled.rb	/^  def abbr_dayname$/;"	f	class:Date
+dayname	untitled.rb	/^  def dayname$/;"	f	class:Date
+get_time	untitled.rb	/^def get_time$/;"	f
+RoundArray	yield.rb	/^class RoundArray$/;"	c
+get_center	yield.rb	/^  def get_center$/;"	f	class:RoundArray
+get_dimension	yield.rb	/^  def get_dimension$/;"	f	class:RoundArray
+get_directions	yield.rb	/^  def get_directions$/;"	f	class:RoundArray
+get_steps	yield.rb	/^  def get_steps$/;"	f	class:RoundArray
+get_turn_times	yield.rb	/^  def get_turn_times$/;"	f	class:RoundArray
+initialize	yield.rb	/^  def initialize(number)$/;"	f	class:RoundArray
+move	yield.rb	/^  def move(direction)$/;"	f	class:RoundArray
+next_direction	yield.rb	/^  def next_direction$/;"	f	class:RoundArray
+next_steps	yield.rb	/^  def next_steps$/;"	f	class:RoundArray
+set_value	yield.rb	/^  def set_value(i)$/;"	f	class:RoundArray
+structrued_array	yield.rb	/^  def structrued_array$/;"	f	class:RoundArray
+structure	yield.rb	/^  def structure$/;"	f	class:RoundArray
+f	yield_demo.rb	/^def f(a)$/;"	f

@@ -1,11 +1,12 @@
 class A
 
-  class << self
+  
     
-    def a
+    def self.a
       b
     end
-
+    
+  class << self
     def b
       p 'b'
     end
